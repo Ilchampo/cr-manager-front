@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Forgot Password</title>
+	<title>RevSync | Forgot Password</title>
 </svelte:head>
 
 <ForgotPassword />

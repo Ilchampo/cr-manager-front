@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>RevSync | OnBoarding</title>
+</svelte:head>
+
 <div class="diagonal-split-bg bg-white">
 	<div
 		class="flex flex-col items-center justify-center h-screen w-screen relative z-10"
@@ -8,7 +12,7 @@
 
 <style>
 	.diagonal-split-bg {
-		@apply bg-gradient-to-br from-primary-900 to-primary-500 relative w-screen h-screen;
+		@apply bg-gradient-to-br from-tertiary-900 to-tertiary-500 relative w-screen h-screen;
 	}
 	.diagonal-split-bg::before {
 		content: '';

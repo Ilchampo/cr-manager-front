@@ -3,6 +3,6 @@
 </script>
 
 <svelte:head>
-	<title>Sign In</title>
+	<title>RevSync | Sign In</title>
 </svelte:head>
 <SignIn />

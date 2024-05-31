@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Sign Up</title>
+	<title>RevSync | Sign Up</title>
 </svelte:head>
 
 <SignUp />

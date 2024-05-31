@@ -5,8 +5,12 @@
 	import { goto } from '$app/navigation';
 </script>
 
+<svelte:head>
+	<title>RevSync | Home</title>
+</svelte:head>
+
 <div
-	class="flex flex-col w-screen h-screen bg-gradient-to-r from-primary-900 to-primary-500 relative"
+	class="flex flex-col w-screen h-screen bg-gradient-to-r from-tertiary-900 to-tertiary-500 relative"
 >
 	<div class="flex flex-col h-full w-full absolute">
 		<div class="grid grid-cols-1 md:grid-cols-2 z-10 h-full">
@@ -35,7 +39,7 @@
 				</div>
 			</div>
 			<div class="hidden md:flex flex-col h-full justify-center items-center">
-				<img src={images.DEMO_USERS} alt="Demo users" />
+				<img src={images.LOGO} alt="Demo users" />
 			</div>
 		</div>
 	</div>

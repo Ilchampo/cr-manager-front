@@ -5,7 +5,7 @@
 
 <div class="grid grid-cols-1 md:grid-cols-2 h-screen w-screen">
 	<div
-		class="hidden md:flex flex-col h-full bg-gradient-to-br from-primary-900 to-primary-500"
+		class="hidden md:flex flex-col h-full bg-gradient-to-br from-tertiary-900 to-tertiary-500"
 	>
 		<div class="flex flex-col h-full justify-between p-16">
 			<img src={images.DEMO_USERS} alt="Demo Users" />
